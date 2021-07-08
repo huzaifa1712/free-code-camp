@@ -1,9 +1,10 @@
 :root{
-    --bg-color:rgb(105,106,161);
+    --bg-color:hsl(239, 23%, 52.2%);
 }
 
 #description{
     font-style: italic;
+    font-size:large;
 
 }
 
