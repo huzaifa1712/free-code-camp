@@ -10,8 +10,9 @@
 }
 
 #survey-form{
+    box-sizing: border-box;
     text-align: left;
-    padding:35px 40px;
+    padding:35px 45px;
     background-color: var(--form-bg-color);
     width:40%;
     margin: 0 auto;
