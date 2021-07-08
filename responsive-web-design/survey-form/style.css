@@ -1,0 +1,6 @@
+body{
+    background:url(programming.jpg), #696AA1;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
+}
