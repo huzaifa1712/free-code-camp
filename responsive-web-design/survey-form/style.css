@@ -68,6 +68,15 @@ input{
     margin: 1% 0;
 }
 
+.input-box{
+    width:100%;
+    font-size:0.9em;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 1% 0;
+}
+
 .normal{
     font-weight:100;
 }
