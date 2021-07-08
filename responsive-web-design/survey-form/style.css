@@ -19,8 +19,24 @@
     margin: 0 auto;
     border: 0px solid black;
     border-radius: 3px;
-    box-shadow: 0px 0px 50px 4px rgba(255,255,255,0.2);
+    
 
+}
+
+@keyframes border-glow {
+    0%{
+        box-shadow: 0px 0px 50px 4px rgba(255,255,255,0);
+    }
+
+    100%{
+        box-shadow: 0px 0px 50px 4px rgba(255,255,255,0.15);
+    }
+}
+#survey-form:hover{
+    animation-name: border-glow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
 body{
@@ -39,13 +55,15 @@ label{
     display: block;
     font-size:1.1em;
     margin-right:1.2vw;
+    margin-bottom:2vh;
 
 }
 
-input[type=text]{
+input{
     width:100%;
     font-size:0.9em;
     padding:10px;
     border: 1px solid black;
     border-radius: 6px;
+    margin: 1% 0;
 }
