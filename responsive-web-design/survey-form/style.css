@@ -134,7 +134,20 @@ input[type=checkbox]{
     font-size:1.1em;
 }
 
-input[type="textarea"]{
+textarea{
+    width: 100%;
    padding-bottom:100px;
    margin-bottom:3vh;
+}
+
+#submit{
+    background-color: rgb(54,175,101);
+    color:white;
+    width:100%;
+    padding: 3% 15%;
+    font-size:1.2em;
+}
+
+#submit:hover{
+    background-color: rgb(78, 202, 124);
 }

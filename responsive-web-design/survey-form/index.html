@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <h1> freeCodeCamp Survey Form</h1>
+    <h1 id = "title"> freeCodeCamp Survey Form</h1>
     <p id = "description">Thank you for taking the time to help us improve the platform</p>
 
     <form id = "survey-form">
@@ -45,9 +45,9 @@
 
         <label class = "bold">
             Would you recomend freeCodeCamp to a friend?
-            <label class = "radio-label" for = "one"><input type = "radio" id = "one" name="radio" required>Definitely</label>
-            <label class = "radio-label" for = "two"><input type = "radio" id = "two" name = "radio">Maybe</label>
-            <label class = "radio-label" for = "two"><input type = "radio" id = "two" name = "radio">Not sure</label>
+            <label class = "radio-label" for = "one"><input type = "radio" id = "one" name="radio" value = "definitely" required>Definitely</label>
+            <label class = "radio-label" for = "two"><input type = "radio" id = "two" name = "radio" value = "maybe">Maybe</label>
+            <label class = "radio-label" for = "three"><input type = "radio" id = "three" name = "radio" value = "not-sure">Not sure</label>
         </label>
         
         
@@ -62,7 +62,8 @@
 
         <section id = "textarea-section">
             <span class = "bold">Any comments or suggestions?</span>
-            <input type = "textarea" name = "comments" placeholder="Enter comments">
+            <br>
+            <textarea name = "comments">Enter comments</textarea>
         </section>
 
 
