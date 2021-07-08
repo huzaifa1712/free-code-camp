@@ -44,5 +44,8 @@ label{
 
 input[type=text]{
     width:100%;
+    font-size:0.9em;
     padding:10px;
+    border: 1px solid black;
+    border-radius: 6px;
 }
