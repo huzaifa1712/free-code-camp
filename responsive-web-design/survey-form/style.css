@@ -10,11 +10,12 @@
 }
 
 #survey-form{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     text-align: left;
     padding:35px 45px;
+    overflow: visible;
     background-color: var(--form-bg-color);
-    width:40%;
+    max-width:40%;
     margin: 0 auto;
     border: 0px solid black;
     border-radius: 3px;
@@ -37,8 +38,11 @@ label{
     font-weight:bold;
     display: block;
     font-size:1.1em;
+    margin-right:1.2vw;
+
 }
 
 input[type=text]{
     width:100%;
+    padding:10px;
 }
