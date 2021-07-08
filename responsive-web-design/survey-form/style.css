@@ -1,6 +1,19 @@
+:root{
+    --bg-color:rgb(105,106,161);
+}
+
+#description{
+    font-style: italic;
+
+}
+
 body{
-    background:url(programming.jpg), #696AA1;
+    background:url(programming.jpg),var(--bg-color);
     background-repeat: no-repeat;
     background-size:cover;
     background-blend-mode: overlay;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    color:white;
+    text-align: center;
 }
