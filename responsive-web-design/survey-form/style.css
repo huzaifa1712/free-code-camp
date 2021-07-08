@@ -49,8 +49,8 @@ body{
     color:white;
     text-align: center;
 }
-
-/* label{
+/* 
+label{
     font-weight:bold;
     display: block;
     font-size:1.1em;
@@ -59,7 +59,7 @@ body{
 
 } */
 
-input:not([type="radio"]){
+input:not([type=radio], [type=checkbox]){
     width:100%;
     font-size:0.9em;
     padding:10px;
@@ -67,6 +67,9 @@ input:not([type="radio"]){
     border-radius: 6px;
     margin: 1% 0;
 }
+
+
+
 
 .input-box{
     width:100%;
@@ -92,15 +95,28 @@ input:not([type="radio"]){
     font-size:1.1em;
     margin-right:1.2vw;
     margin-bottom:2vh;
+    margin-top:2vh;
 }
 
 .radio-label{
     margin-top:0.5vh;
     display: block;
-    font-weight:normal;
+    font-weight:300;
 }
 
 input[type=radio]{
     transform: scale(1.5);
     margin-right:10px;
+}
+
+input[type=checkbox]{
+    /* margin-right:10px;
+    transform:scale(1.4); */
+}
+
+
+#checkbox-section{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
