@@ -19,19 +19,19 @@
     <p id = "description">Thank you for taking the time to help us improve the platform</p>
 
     <form id = "survey-form">
-        <label id = "name-label" for = "name">Name 
+        <label class = "input-label" id = "name-label" for = "name">Name 
             <input type = "text" id = "name" placeholder="Enter your name" required> 
         </label>
 
-        <label id = "email-label" for = "email">Email
+        <label class = "input-label" id = "email-label" for = "email">Email
             <input type = "email" id = "email" placeholder = "Enter your e-mail" required>
         </label>
 
-        <label id = "number-label"for = "number"> Age <span class = "normal">(optional)</span>
+        <label class = "input-label" id = "number-label"for = "number"> Age <span class = "normal">(optional)</span>
             <input type = "number" id = "number" placeholder="Age" min = "10" max = "99">
         </label>
 
-        <label>
+        <label class = "input-label">
             Which option best describes your current role?
             <br>
             <select id = "dropdown" class = "input-box">
@@ -41,6 +41,14 @@
                 <option>Prefer not to say</option>
                 <option>Other</option>
             </select>
+        </label>
+
+        <label class = "bold">
+            Would you recommend freeCodeCamp to a friend?
+            <label class = "radio-label" for = "one"><input type = "radio" id = "one" name="radio">Definitely</label>
+            <label class = "radio-label" for = "two"><input type = "radio" id = "two" name = "radio">Maybe</label>
+            <label class = "radio-label" for = "two"><input type = "radio" id = "two" name = "radio">Not sure</label>
+            
         </label>
 
 
