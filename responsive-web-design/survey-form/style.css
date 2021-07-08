@@ -1,11 +1,16 @@
 :root{
     --bg-color:hsl(239, 28%, 45%);
+    --form-bg-color:rgb(39,39,70);
 }
 
 #description{
     font-style: italic;
     font-size:large;
 
+}
+
+#survey-form{
+    background-color: var(--form-bg-color);
 }
 
 body{
@@ -18,3 +23,9 @@ body{
     color:white;
     text-align: center;
 }
+
+label{
+    font-weight:bold;
+    display: block;
+}
+
