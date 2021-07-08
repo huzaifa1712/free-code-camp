@@ -67,3 +67,7 @@ input{
     border-radius: 6px;
     margin: 1% 0;
 }
+
+.normal{
+    font-weight:100;
+}
