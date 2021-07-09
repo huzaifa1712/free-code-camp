@@ -15,9 +15,24 @@ body{
     font-family: Lato, sans-serif;
 }
 
-#logo{
-    width:20%;
+header{
+    display:flex;
+    min-width:100%;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 0.8rem 1.2rem;
+
 }
+
+#logo{
+    width:310px;
+    height:auto;
+}
+
+#nav-bar{
+
+}
+
 
 .nav-link{
     text-decoration: none;
