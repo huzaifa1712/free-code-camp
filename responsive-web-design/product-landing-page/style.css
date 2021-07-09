@@ -20,7 +20,7 @@ header{
     min-width:100%;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    border-bottom: 1px solid #c7c7c7 ;
     padding: 0.8rem 6rem 0.8rem 1.2rem;
     position: fixed;
     top:0;
@@ -34,7 +34,6 @@ header{
 }
 
 .nav-link{
-    position: relative;
     text-decoration: none;
     color:black;
     font-weight: 400;
