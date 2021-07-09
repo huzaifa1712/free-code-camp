@@ -136,6 +136,19 @@ main{
     margin: 0 auto;
 }
 
+.title{
+    background-color: var(--bg-grey);
+    font-weight:bold;
+    padding:  1rem 2rem;
+    margin-bottom:1rem;
+}
+
+
+.price{
+    font-weight:bold;
+    font-size:1.7rem;
+}
 .pricing-card{
-    
+    border: 1px solid black;
+    border-radius:2px;
 }
