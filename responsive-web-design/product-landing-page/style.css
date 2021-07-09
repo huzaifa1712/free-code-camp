@@ -3,3 +3,13 @@
     --btn-color: rgb(241,197,13);
     --bg-grey: rgb(221,221,221);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+}
