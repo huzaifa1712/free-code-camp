@@ -13,9 +13,10 @@
     /*box-sizing: border-box;*/
     text-align: left;
     padding:35px 45px;
+    box-sizing: border-box;
     overflow: visible;
     background-color: var(--form-bg-color);
-    max-width:40%;
+    max-width:45%;
     margin: 0 auto;
     border: 0px solid black;
     border-radius: 3px;
@@ -137,7 +138,10 @@ input[type=checkbox]{
 textarea{
     width: 100%;
    padding-bottom:100px;
+   padding-left:10px;
    margin-bottom:3vh;
+   font-family: Poppins, sans-serif;
+   font-size: 0.9em;
 }
 
 #submit{
