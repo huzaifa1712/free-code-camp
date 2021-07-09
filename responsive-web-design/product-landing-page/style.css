@@ -90,3 +90,28 @@ main{
     text-decoration: underline;
 }
 
+
+.info-logo{
+    
+}
+
+.info-card{
+    display:flex;
+    margin-top:4rem;
+
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;  
+
+}   
+
+.info > *{
+    padding:0;
+    margin:2px;
+}
+
+
